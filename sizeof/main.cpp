@@ -7,7 +7,7 @@ void writeSizeOf(std::string type, int size){
 
 int main(){
     writeSizeOf("char", sizeof(char));
-    writeSizeOf("wchar_t", sizeof(char));
+    writeSizeOf("wchar_t", sizeof(wchar_t));
     writeSizeOf("short", sizeof(short));
     writeSizeOf("int", sizeof(int));
     writeSizeOf("long", sizeof(long));
