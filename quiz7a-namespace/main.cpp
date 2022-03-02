@@ -13,8 +13,8 @@ namespace Oke{
 }
 
 int main(){
-    int x = IO::readNumber(1);
-    int y = IO::readNumber(2);
+    int x = IO::readNumber("1");
+    int y = IO::readNumber("2");
 
     Foo::x = 0;
     Foo::Goo::y = 1;
@@ -26,6 +26,6 @@ int main(){
         y = temp;
     }// temp dies here
 
-    IO::writeAnswer("angka pertama : "+std::to_string(x)+" dan angka kedua : "+std::to_string(y));
+    IO::writeString("angka pertama : "+std::to_string(x)+" dan angka kedua : "+std::to_string(y));
     return 0;
 }

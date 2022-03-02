@@ -8,8 +8,8 @@ int main(){
     value++;
     ::value--;
 
-    writeAnswer("global value : "+std::to_string(::value));
-    writeAnswer("local value : "+std::to_string(value));
+    IO::writeString("global value : "+std::to_string(::value));
+    IO::writeString("local value : "+std::to_string(value));
 
     return 0;
 }
