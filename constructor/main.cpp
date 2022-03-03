@@ -23,7 +23,8 @@ class B{
 };
 
 int main(){
+    A a(1);
     B b;
-    B a(1);
+    B c(1);
     return 0;
 }
